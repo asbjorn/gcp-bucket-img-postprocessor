@@ -1,0 +1,7 @@
+venv
+data
+# gcp credentials
+credentials-*.json
+
+.vscode
+__pycache__/
