@@ -57,10 +57,9 @@ gcloud run deploy pubsub-tutorial --image gcr.io/my-project/pubsub \
     --set-env-vars CLOUD_STORAGE_BUCKET=my-example-storage-bucket,CLOUD_UPLOAD_STORAGE_BUCKET=my-example-storage-bucket-upload
 ```
 
-# The previous command will display the service URL. That URL is used to configure
-# the Pub/Sub subscription
-```
+**Important:** The previous command will display the service URL. That URL is used to configure the Pub/Sub subscription
 
+```
 ### Step 6: Integrate with Pub/Sub
 
 Alrite.. We have deployed our Cloud Run service
