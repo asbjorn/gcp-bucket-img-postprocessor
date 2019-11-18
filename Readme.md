@@ -38,7 +38,7 @@ gcloud pubsub topics create images-failed
 ### Step 4: Setup your bucket to sendt to Pub/Sub topics
 
 ```bash
-gsutil notification create -f json -e OBJECT_FINALIZE gs://my-example-storage-bucket
+gsutil notification create -f json -t images-to-process -e OBJECT_FINALIZE gs://my-example-storage-bucket
 # list the notification config like this
 gsutil notification list gs://my-example-storage-bucket
 ```
