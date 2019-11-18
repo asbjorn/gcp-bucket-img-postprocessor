@@ -58,8 +58,8 @@ gcloud run deploy pubsub-tutorial --image gcr.io/my-project/pubsub \
 
 **Important:** The previous command will display the service URL. That URL is used to configure the Pub/Sub subscription
 
-```
 ### Step 6: Integrate with Pub/Sub
+
 
 Alrite.. We have deployed our Cloud Run service
 
