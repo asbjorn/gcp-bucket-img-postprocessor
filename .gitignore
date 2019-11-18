@@ -5,3 +5,4 @@ credentials-*.json
 
 .vscode
 __pycache__/
+tmp
