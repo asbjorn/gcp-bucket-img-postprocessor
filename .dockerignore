@@ -3,3 +3,6 @@ Dockerfile
 __pycache__
 .pytest_cache
 .vscode
+venv
+tmp
+credentials-*.json
