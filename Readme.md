@@ -51,7 +51,6 @@ gsutil notification list gs://my-example-storage-bucket
 gcloud builds submit --tag gcr.io/my-project/pubsub
 
 # 'pubsub' is the container name, 'pubsub-tutorial' is the name of the service
-```bash
 # Notice the two important environment variables
 gcloud run deploy pubsub-tutorial --image gcr.io/my-project/pubsub \
     --set-env-vars CLOUD_STORAGE_BUCKET=my-example-storage-bucket,CLOUD_UPLOAD_STORAGE_BUCKET=my-example-storage-bucket-upload
