@@ -13,7 +13,7 @@ export PROJECT_ID="my-project"
 gcloud projects list
 export PROJECT_NUMBER="101010101"
 ```
-1. `gcloud config set project $PROJECT-ID`
+1. `gcloud config set project $PROJECT_ID`
 2. `gcloud config set run/region europe-west1`
 
 
